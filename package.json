@@ -1,0 +1,24 @@
+{
+  "name": "fibo",
+  "version": "1.0.0",
+  "description": "Returns Fibonacci numbers from the work of the native module C++",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "AkimovMO",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
+    "bindings": "^1.5.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "node-addon-api": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
